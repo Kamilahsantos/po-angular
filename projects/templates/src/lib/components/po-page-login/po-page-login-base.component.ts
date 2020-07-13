@@ -73,7 +73,7 @@ export const poPageLoginLiteralsDefault = {
     createANewPasswordNow:
       '¡Mejor crear una nueva contraseña ahora! Usted podrá entrar en el sistema inmediatamente después.',
     iForgotMyPassword: 'Olvide mi contraseña',
-    welcome: 'Bienvenida'
+    welcome: 'Bienvenido'
   },
   pt: <PoPageLoginLiterals>{
     title: 'Bem-vindo',
@@ -134,13 +134,6 @@ export const poPageLoginLiteralIn = {
   es: 'en',
   pt: 'em',
   ru: 'в'
-};
-
-export const poPageLoginLiteralTo = {
-  en: 'to',
-  es: 'al',
-  pt: 'ao',
-  ru: 'к'
 };
 
 /**

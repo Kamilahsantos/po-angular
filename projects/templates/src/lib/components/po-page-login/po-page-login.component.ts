@@ -19,7 +19,6 @@ import { PoModalPasswordRecoveryType } from '../po-modal-password-recovery/enums
 import {
   PoPageLoginBaseComponent,
   poPageLoginLiteralIn,
-  poPageLoginLiteralTo,
   poPageLoginLiteralsDefault
 } from './po-page-login-base.component';
 import { PoPageLoginRecovery } from './interfaces/po-page-login-recovery.interface';
