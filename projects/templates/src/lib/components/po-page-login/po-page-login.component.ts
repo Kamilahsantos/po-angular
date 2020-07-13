@@ -230,13 +230,6 @@ export class PoPageLoginComponent extends PoPageLoginBaseComponent implements Af
     return this.concatenateLiteral(contactEmail, 'loginHint', defaultLoginHintLiteral, prepositionLiteral);
   }
 
-  protected concatenateTitleWithProductName(productName: string) {
-    const defaultTitleLiteral = poPageLoginLiteralsDefault[this.language].title;
-    const prepositionLiteral = poPageLoginLiteralTo[this.language];
-
-    return this.concatenateLiteral(productName, 'title', defaultTitleLiteral, prepositionLiteral);
-  }
-
   protected setLoginErrors(errors: Array<string>) {
     const control = this.loginForm.form.controls['login'];
     this.setControlErrors('allLoginErrors', control, errors, this.pageLoginLiterals.loginErrorPattern);
